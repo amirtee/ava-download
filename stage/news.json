@@ -2,26 +2,26 @@
   "format": "ava-news/1",
   "channel": "stage",
   "number": 3,
-  "written": "2026-10-27T15:09:49.260Z",
+  "written": "2026-10-27T18:04:16.706Z",
   "app": {
-    "version": "1.0.71",
-    "note": "Test update",
-    "changes": 1,
+    "version": "1.0.72",
+    "note": "New\n- Ava Stage can update itself from GitHub Releases: Home shows one line, What's new lists the changes, and Ava checks size and fingerprint before you install.\nImproved\n- The Mac app leaves out development files, so the download holds only what Ava needs.\nFixed\n- Download no longer stops at \"Redirect was cancelled\": Ava follows GitHub's download address and still checks every file.",
+    "changes": 3,
     "files": {
       "intel": {
-        "name": "Ava-Stage-1.0.71-Intel.dmg",
-        "size": 308366047,
-        "sha256": "7f63f17e5ce3ac377e31355f4415a8931ec50bae1aeb015b6c94942a84519176",
-        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.71-stage/Ava-Stage-1.0.71-Intel.dmg"
+        "name": "Ava-Stage-1.0.72-Intel.dmg",
+        "size": 308416290,
+        "sha256": "e61ae2c1946c4aa802d1ba1960acb6e1c999951aa2cca3757f6faf944d14628a",
+        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.72-stage/Ava-Stage-1.0.72-Intel.dmg"
       },
       "apple-silicon": {
-        "name": "Ava-Stage-1.0.71-Apple-silicon.dmg",
-        "size": 293830234,
-        "sha256": "a01e41e0e0584cd12304782fc40a3b58e8739f4ea4237d30622e95a8dd33e396",
-        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.71-stage/Ava-Stage-1.0.71-Apple-silicon.dmg"
+        "name": "Ava-Stage-1.0.72-Apple-silicon.dmg",
+        "size": 293822600,
+        "sha256": "bc81a5987e38c67715b628db7206fab1ad9cce0f294a2c59012fd0cf3b60ad53",
+        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.72-stage/Ava-Stage-1.0.72-Apple-silicon.dmg"
       }
     }
   },
-  "lowestAllowed": "1.0.71",
+  "lowestAllowed": "1.0.0",
   "packs": []
 }
