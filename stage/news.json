@@ -1,8 +1,8 @@
 {
   "format": "ava-news/1",
   "channel": "stage",
-  "number": 2,
-  "written": "2026-10-27T15:08:55.784Z",
+  "number": 3,
+  "written": "2026-10-27T15:09:49.260Z",
   "app": {
     "version": "1.0.71",
     "note": "Test update",
@@ -22,6 +22,6 @@
       }
     }
   },
-  "lowestAllowed": "1.0.0",
+  "lowestAllowed": "1.0.71",
   "packs": []
 }
