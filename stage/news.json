@@ -1,0 +1,27 @@
+{
+  "format": "ava-news/1",
+  "channel": "stage",
+  "number": 2,
+  "written": "2026-10-27T15:08:55.784Z",
+  "app": {
+    "version": "1.0.71",
+    "note": "Test update",
+    "changes": 1,
+    "files": {
+      "intel": {
+        "name": "Ava-Stage-1.0.71-Intel.dmg",
+        "size": 308366047,
+        "sha256": "7f63f17e5ce3ac377e31355f4415a8931ec50bae1aeb015b6c94942a84519176",
+        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.71-stage/Ava-Stage-1.0.71-Intel.dmg"
+      },
+      "apple-silicon": {
+        "name": "Ava-Stage-1.0.71-Apple-silicon.dmg",
+        "size": 293830234,
+        "sha256": "a01e41e0e0584cd12304782fc40a3b58e8739f4ea4237d30622e95a8dd33e396",
+        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.71-stage/Ava-Stage-1.0.71-Apple-silicon.dmg"
+      }
+    }
+  },
+  "lowestAllowed": "1.0.0",
+  "packs": []
+}
