@@ -1,8 +1,8 @@
 {
   "format": "ava-news/1",
   "channel": "stage",
-  "number": 3,
-  "written": "2026-10-27T18:04:16.706Z",
+  "number": 4,
+  "written": "2026-10-27T18:04:19.856Z",
   "app": {
     "version": "1.0.72",
     "note": "New\n- Ava Stage can update itself from GitHub Releases: Home shows one line, What's new lists the changes, and Ava checks size and fingerprint before you install.\nImproved\n- The Mac app leaves out development files, so the download holds only what Ava needs.\nFixed\n- Download no longer stops at \"Redirect was cancelled\": Ava follows GitHub's download address and still checks every file.",
@@ -22,6 +22,6 @@
       }
     }
   },
-  "lowestAllowed": "1.0.0",
+  "lowestAllowed": "1.0.72",
   "packs": []
 }
