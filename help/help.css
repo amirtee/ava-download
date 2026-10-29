@@ -85,10 +85,11 @@ img { display:block; max-width:100%; height:auto; }
 .five-lines li { padding-left:var(--s14); position:relative; }
 .five-lines li::before { position:absolute; content:""; width:4px; height:4px; border-radius:50%; background:var(--t3); top:8px; left:0; }
 .home-intro .small { margin-top:var(--s12); }
-.screen { min-width:0; }
-.screen>a { display:block; width:fit-content; max-width:100%; border-radius:var(--r10); overflow:hidden; background:#141518; }
+.screen { min-width:0; position:relative; }
+.screen>a { display:block; position:relative; width:100%; max-width:100%; border-radius:var(--r10); overflow:hidden; background:#141518; }
 .screen picture { display:block; }
-.screen img { width:auto; }
+.screen img { width:100%; }
+.screen .hit { position:absolute; left:var(--x); top:var(--y); width:var(--w); height:var(--h); outline:3px solid #ff7a00; outline-offset:3px; box-shadow:0 0 0 2px #0e0f11, 0 0 0 4px #fff; border-radius:var(--r6); pointer-events:none; }
 .screen figcaption { margin-top:var(--s10); color:var(--t3); font-size:var(--f12); line-height:18px; }
 .screen figcaption a { display:inline-block; min-height:32px; margin-left:var(--s4); }
 .section { padding-block:var(--s32); border-bottom:1px solid var(--l1); }
@@ -151,7 +152,7 @@ img { display:block; max-width:100%; height:auto; }
 .state { display:block; font-size:var(--f11); color:var(--t3); }
 .progress-panel>.quiet { display:flex; }
 .progress-panel>.small { font-size:var(--f11); }
-.recovery { padding:var(--s24); background:var(--bar); }
+.recovery { padding:var(--s24); margin-bottom:var(--s24); background:var(--bar); }
 .recovery h2 { margin-bottom:var(--s16); }
 .recovery ul { display:grid; gap:var(--s14); padding-left:var(--s20); }
 .recovery li { font-size:var(--f13); line-height:20px; }
@@ -233,4 +234,9 @@ img { display:block; max-width:100%; height:auto; }
   .lesson-layout { display:block; }
   .lesson-step { break-inside:avoid; }
   .screen img { max-height:75mm; width:auto; }
+}
+
+.journey > .quiet + .quiet { margin-left:var(--s16); }
+@media (max-width:520px) {
+  .screen .hit { left:var(--px); top:var(--py); width:var(--pw); height:var(--ph); }
 }
