@@ -1,24 +1,24 @@
 {
   "format": "ava-news/1",
   "channel": "stage",
-  "number": 4,
-  "written": "2026-10-27T18:04:19.856Z",
+  "number": 5,
+  "written": "2026-10-29T15:52:58.661Z",
   "app": {
-    "version": "1.0.72",
-    "note": "New\n- Ava Stage can update itself from GitHub Releases: Home shows one line, What's new lists the changes, and Ava checks size and fingerprint before you install.\nImproved\n- The Mac app leaves out development files, so the download holds only what Ava needs.\nFixed\n- Download no longer stops at \"Redirect was cancelled\": Ava follows GitHub's download address and still checks every file.",
-    "changes": 3,
+    "version": "1.0.155",
+    "note": "New\n- Images only · photo sets.\n- Library · Sets · Save as yours · Use in one of your films.\nImproved\n- Style · Saved to Memory when you use this style.\n- Character kit · The new sheet picture waits for your choice. The saved version stays.\nFixed\n- Your brief is waiting. Ava checks at the return time and never sends by itself.\n- Scene pictures and words stay saved.",
+    "changes": 6,
     "files": {
       "intel": {
-        "name": "Ava-Stage-1.0.72-Intel.dmg",
-        "size": 308416290,
-        "sha256": "e61ae2c1946c4aa802d1ba1960acb6e1c999951aa2cca3757f6faf944d14628a",
-        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.72-stage/Ava-Stage-1.0.72-Intel.dmg"
+        "name": "Ava-Stage-1.0.155-Intel.dmg",
+        "size": 308627453,
+        "sha256": "e55bdf0e9a76d21f456c1478804b8bdd8a7768d473323d86a8fedcdc0fdb465f",
+        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.155-stage/Ava-Stage-1.0.155-Intel.dmg"
       },
       "apple-silicon": {
-        "name": "Ava-Stage-1.0.72-Apple-silicon.dmg",
-        "size": 293822600,
-        "sha256": "bc81a5987e38c67715b628db7206fab1ad9cce0f294a2c59012fd0cf3b60ad53",
-        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.72-stage/Ava-Stage-1.0.72-Apple-silicon.dmg"
+        "name": "Ava-Stage-1.0.155-Apple-silicon.dmg",
+        "size": 294216882,
+        "sha256": "56634cc51c4001970543ac175c4448f76c058fa0513a1f57b3172fef777fd5f8",
+        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.155-stage/Ava-Stage-1.0.155-Apple-silicon.dmg"
       }
     }
   },
