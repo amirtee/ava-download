@@ -89,9 +89,9 @@ img { display:block; max-width:100%; height:auto; }
 .screen>a { display:block; position:relative; width:100%; max-width:100%; border-radius:var(--r10); overflow:hidden; background:#141518; }
 .screen picture { display:block; }
 .screen img { width:100%; }
-.screen .hit { position:absolute; left:var(--x); top:var(--y); width:var(--w); height:var(--h); outline:3px solid #ff7a00; outline-offset:3px; box-shadow:0 0 0 2px #0e0f11, 0 0 0 4px #fff; border-radius:var(--r6); pointer-events:none; }
+.screen .hit { position:absolute; left:var(--x); top:var(--y); width:var(--w); height:var(--h); outline:3px solid #ff7a00; outline-offset:0; box-shadow:0 0 0 1px #0e0f11, 0 0 0 2px #fff; border-radius:var(--r6); pointer-events:none; }
 .screen figcaption { margin-top:var(--s10); color:var(--t3); font-size:var(--f12); line-height:18px; }
-.screen figcaption a { display:inline-block; min-height:32px; margin-left:var(--s4); }
+.screen figcaption a { display:inline-block; min-height:32px; margin-left:0; }
 .section { padding-block:var(--s32); border-bottom:1px solid var(--l1); }
 .section h2 { margin-bottom:var(--s8); }
 .section-intro { margin-bottom:var(--s24); font-size:var(--f13); }
@@ -126,7 +126,7 @@ img { display:block; max-width:100%; height:auto; }
 .pace { margin-top:var(--s12); font-size:var(--f12); }
 .notice { padding:var(--s16) var(--s20); border:1px solid var(--l2); background:var(--bar); border-radius:var(--r12); margin-bottom:var(--s28); }
 .notice p { font-size:var(--f13); }
-.lesson-layout { display:grid; grid-template-columns:minmax(0,1fr) 210px; gap:var(--s28); align-items:start; }
+.lesson-layout { display:grid; grid-template-columns:minmax(0,1fr); gap:var(--s28); align-items:start; }
 .lesson-body { min-width:0; }
 .lesson-step { padding:var(--s24); margin-bottom:var(--s24); }
 .step-heading { display:flex; align-items:flex-start; gap:var(--s12); margin-bottom:var(--s16); }
@@ -138,10 +138,10 @@ img { display:block; max-width:100%; height:auto; }
 .done-row { margin-top:var(--s16); padding:var(--s12); background:var(--bg1); border-radius:var(--r8); }
 .check-row input { flex:none; width:20px; height:20px; margin:0; cursor:pointer; }
 .check-row:has(input:checked) { color:var(--sel-ink); background:var(--sel-bg); }
-.progress-panel { position:sticky; top:var(--s24); padding-top:var(--s8); }
+.progress-panel { position:static; grid-row:1; padding:var(--s16); border:1px solid var(--l2); border-radius:var(--r12); background:var(--bg1); }
 .progress-panel h2 { font-size:var(--f15); margin-bottom:var(--s4); }
 .progress-panel output { display:block; font-size:var(--f13); color:var(--t2); margin-bottom:var(--s6); }
-.progress-list { list-style:none; padding:0; margin-block:var(--s16); }
+.progress-list { list-style:none; padding:0; margin-block:var(--s16); display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); column-gap:var(--s24); }
 .progress-list a { display:flex; align-items:flex-start; gap:var(--s8); padding-block:var(--s10); min-height:44px; border-bottom:1px solid var(--l1); font-size:var(--f12); line-height:18px; text-decoration:none; }
 .progress-list a:hover { text-decoration:underline; }
 .check-mark { display:grid; place-items:center; flex:none; width:18px; height:18px; border:1px solid var(--t3); border-radius:50%; margin-top:1px; }
