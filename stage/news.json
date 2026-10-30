@@ -1,24 +1,24 @@
 {
   "format": "ava-news/1",
   "channel": "stage",
-  "number": 5,
-  "written": "2026-10-29T15:52:58.661Z",
+  "number": 6,
+  "written": "2026-10-30T01:50:05.279Z",
   "app": {
-    "version": "1.0.155",
-    "note": "New\n- Images only · photo sets.\n- Library · Sets · Save as yours · Use in one of your films.\nImproved\n- Style · Saved to Memory when you use this style.\n- Character kit · The new sheet picture waits for your choice. The saved version stays.\nFixed\n- Your brief is waiting. Ava checks at the return time and never sends by itself.\n- Scene pictures and words stay saved.",
-    "changes": 6,
+    "version": "1.0.160",
+    "note": "New\n- A new motion draft uses the look you chose, from Style or by asking in chat.\nImproved\n- Farsi words on photos show every letter, centred.\nFixed\n- The box for two sets in the same place names the sets you chose.\n- Keep my edited scenes keeps your edits.\n- After an export, the chat shows Ava's questions and progress.",
+    "changes": 5,
     "files": {
       "intel": {
-        "name": "Ava-Stage-1.0.155-Intel.dmg",
-        "size": 308627453,
-        "sha256": "e55bdf0e9a76d21f456c1478804b8bdd8a7768d473323d86a8fedcdc0fdb465f",
-        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.155-stage/Ava-Stage-1.0.155-Intel.dmg"
+        "name": "Ava-Stage-1.0.160-Intel.dmg",
+        "size": 308640283,
+        "sha256": "078ba8a8ffbdf9501443cc2468c1312a974b6e3e9fa89865120141aa808d4d91",
+        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.160-stage/Ava-Stage-1.0.160-Intel.dmg"
       },
       "apple-silicon": {
-        "name": "Ava-Stage-1.0.155-Apple-silicon.dmg",
-        "size": 294216882,
-        "sha256": "56634cc51c4001970543ac175c4448f76c058fa0513a1f57b3172fef777fd5f8",
-        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.155-stage/Ava-Stage-1.0.155-Apple-silicon.dmg"
+        "name": "Ava-Stage-1.0.160-Apple-silicon.dmg",
+        "size": 294220925,
+        "sha256": "6fd26557da105211ece7b3babd61b43c7ad934983f0125bdcf2dff423e538374",
+        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.160-stage/Ava-Stage-1.0.160-Apple-silicon.dmg"
       }
     }
   },
