@@ -1,24 +1,24 @@
 {
   "format": "ava-news/1",
   "channel": "stage",
-  "number": 6,
-  "written": "2026-10-30T01:50:05.279Z",
+  "number": 7,
+  "written": "2026-10-31T12:54:18.143Z",
   "app": {
-    "version": "1.0.160",
-    "note": "New\n- A new motion draft uses the look you chose, from Style or by asking in chat.\nImproved\n- Farsi words on photos show every letter, centred.\nFixed\n- The box for two sets in the same place names the sets you chose.\n- Keep my edited scenes keeps your edits.\n- After an export, the chat shows Ava's questions and progress.",
-    "changes": 5,
+    "version": "1.0.161",
+    "note": "New\n- Ava compares your brief with your categories and explains its pick.\n- Build, name and check your own category with its recipe.\n- Next episode reuses your people, look and music.\n- Ava offers to make your repeated changes part of the recipe.\nImproved\n- Choose which version a film keeps.\nFixed\n- A first photo that was made no longer ends as Unknown.\n- The motion draft uses the assistant you connected.\n- Use Codex works on that stop page.\n- Projects cards show your photo sizes.\n- Projects saved in the Brain no longer stop with Setup shows Codex as not usable.\n- Two copies of a category no longer stop Ava from opening.\n- One bad file in the Brain now shows a clear message instead of no window.\n- A chat file is no longer refused after a Timeline edit.",
+    "changes": 13,
     "files": {
       "intel": {
-        "name": "Ava-Stage-1.0.160-Intel.dmg",
-        "size": 308640283,
-        "sha256": "078ba8a8ffbdf9501443cc2468c1312a974b6e3e9fa89865120141aa808d4d91",
-        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.160-stage/Ava-Stage-1.0.160-Intel.dmg"
+        "name": "Ava-Stage-1.0.161-Intel.dmg",
+        "size": 309004658,
+        "sha256": "08b502737b90c2a7383d0e81bb14549e5252c8af518a83ba8535239db41f9b12",
+        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.161-stage/Ava-Stage-1.0.161-Intel.dmg"
       },
       "apple-silicon": {
-        "name": "Ava-Stage-1.0.160-Apple-silicon.dmg",
-        "size": 294220925,
-        "sha256": "6fd26557da105211ece7b3babd61b43c7ad934983f0125bdcf2dff423e538374",
-        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.160-stage/Ava-Stage-1.0.160-Apple-silicon.dmg"
+        "name": "Ava-Stage-1.0.161-Apple-silicon.dmg",
+        "size": 294588880,
+        "sha256": "2d6df72e222f7ba98bea6e380e86211f13f22a9e4ce5e821098dd37b35f44e72",
+        "url": "https://github.com/amirtee/ava-download/releases/download/v1.0.161-stage/Ava-Stage-1.0.161-Apple-silicon.dmg"
       }
     }
   },
